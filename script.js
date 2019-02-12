@@ -1,0 +1,2 @@
+
+document.myForm.email.type;

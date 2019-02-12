@@ -9,15 +9,20 @@
 </head>
 
 <body>
+ <h1>Quiz</h1>
+    <form action="" name="myForm">
+        <label for = "virus">Email address please</label>
+        <input type = "email" name = "email">
+        <button> submit</button>
+    </form>
 
-    <h1>Quiz</h1>
     <form action="" name="myForm">
         <label for="choose"> Would you prefer a Pear or an Apple?</label>
         <input id="choose" name="i_like" pattern="Pear|Apple" required>
         <button>Submit</button>
     </form>
     <form id="userForm">
-        <label for="choose">What fruit did eve eat in the garden of contention </label>
+        <label for="choose">What fruit did Eve allegedly eat in the garden of eden </label>
         <input type="radio" name="bibleFruit" value="no"> Pear
         <input type="radio" name="bibleFruit" value="yes"> Apple
         <input type="radio" name="bibleFruit" value="no"> Banana
@@ -25,6 +30,37 @@
         <input type="submit" id="submitBtn" value="Submit">
     </form>
 
+    <p class = "question">4. What Fruit makes the Best Fruit juice?  </p>
+    <ul>
+        <input class="answer" type ="radio" name="q1" value = "1">
+        <label id = "correctString1"> Cranberries</label>
+        <br>
+        <input class = "answer" type="radio" name="q1" value = "0">
+        <label>Soy Chew</label>
+        <br>
+        <input class = "answer" type="radio" name="q1" value = "0">
+        <label>Cashews</label>
+        <br>
+        <input class = "answer" type="radio" name="q1" value = "0">
+        <label>Almonds</label>
+
+   
+    <p class = "question">5.What Fruit Every one thinks is a vegtable but is actualy a fruit?  </p>
+
+    
+        <input class = "answer" type="radio" name="q1" value = "0">
+        <label>Carrot Top</label>
+        <br>
+        <input class="answer" type ="radio" name="q1" value = "1">
+        <label id = "correctString1"> Tomato</label>
+        <br>
+        <input class = "answer" type="radio" name="q1" value = "0">
+        <label> Elton john</label>
+        <br>
+        <input class = "answer" type="radio" name="q1" value = "0">
+        <label>Pineapple</label>
+
+    </ul>
 
     <script src="script.js"></script>
 </body>
